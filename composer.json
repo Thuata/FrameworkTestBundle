@@ -1,0 +1,29 @@
+{
+    "name": "thuata/frameworktestbundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Bundle to test framework bundle",
+    "authors": [
+        {
+            "name": "Anthony Maudry",
+            "email": "anthony.maudry@thuata.com",
+            "homepage": "http://www.thuata.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Thuata\\FrameworkTestBundle\\": "" }
+    },
+    "require": {
+        "php": ">=5.5",
+        "symfony/symfony": ">=3",
+        "thuata/frameworkbundle": "1.*"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "~2.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
