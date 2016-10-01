@@ -14,9 +14,9 @@
         "psr-4": { "Thuata\\FrameworkTestBundle\\": "" }
     },
     "require": {
-        "php": ">=5.5",
+        "php": "~7.1",
         "symfony/symfony": ">=3",
-        "thuata/frameworkbundle": "1.*"
+        "thuata/frameworkbundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
