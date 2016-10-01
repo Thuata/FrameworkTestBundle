@@ -1,0 +1,21 @@
+Thuata\FrameworkTestBundle\Entity\ValidEntity:
+    type: entity
+    table: null
+    repositoryClass: Thuata\FrameworkTestBundle\Repository\ValidEntityRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        description:
+            type: text
+        deleted:
+            type: boolean
+        date:
+            type: datetime
+    lifecycleCallbacks: {  }
