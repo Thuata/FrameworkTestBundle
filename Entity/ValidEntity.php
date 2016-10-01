@@ -50,7 +50,7 @@ class ValidEntity
      *
      * @return ValidEntity
      */
-    public function setName($name)
+    public function setName(string $name)
     {
         $this->name = $name;
 
@@ -74,7 +74,7 @@ class ValidEntity
      *
      * @return ValidEntity
      */
-    public function setDescription($description)
+    public function setDescription(string $description)
     {
         $this->description = $description;
 
@@ -98,7 +98,7 @@ class ValidEntity
      *
      * @return ValidEntity
      */
-    public function setDeleted($deleted)
+    public function setDeleted(bool $deleted)
     {
         $this->deleted = $deleted;
 
@@ -122,7 +122,7 @@ class ValidEntity
      *
      * @return ValidEntity
      */
-    public function setDate($date)
+    public function setDate(\DateTime $date)
     {
         $this->date = $date;
 
