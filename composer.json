@@ -15,8 +15,7 @@
     },
     "require": {
         "php": "~7.1",
-        "symfony/symfony": ">=3",
-        "thuata/frameworkbundle": "^1.5"
+        "symfony/symfony": ">=3"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
